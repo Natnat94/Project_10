@@ -1,4 +1,5 @@
 from django.test import TestCase
+from io import BytesIO
 from ..forms import UserRegisterForm, UserUpdateForm
 from authentification.models import User
 
@@ -25,3 +26,10 @@ class TestForms(TestCase):
     #     form_data = {'username': 'rien42@g.com', 'first_name': 'nathan', 'last_name': 'mim'}
     #     form = UserUpdateForm(data=form_data)
     #     self.assertTrue(form.is_valid())
+        # img = BytesIO(b'mybinarydata')
+        # img.name = 'myimage.jpg'
+        # form_data = {'username': 'rien42@g.com', 'first_name': 'nathan', 'last_name': 'mim'}
+        # form = UserUpdateForm(data=form_data)
+        # form.is_valid()
+        # print(form.errors)
+        # self.assertTrue(form.is_valid())
