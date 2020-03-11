@@ -23,10 +23,7 @@ class TestForms(TestCase):
         self.assertFalse(form.is_valid())
     
     # def test_userupdateform_success(self):
-        # img = BytesIO(b'mybinarydata')
-        # img.name = 'myimage.jpg'
-        # form_data = {'username': 'rien42@g.com', 'first_name': 'nathan', 'last_name': 'mim'}
-        # form = UserUpdateForm(data=form_data)
-        # form.is_valid()
-        # print(form.errors)
-        # self.assertTrue(form.is_valid())
+
+    #     form_data = {'username': 'rien42@g.com', 'first_name': 'nathan', 'last_name': 'mim'}
+    #     form = UserUpdateForm(data=form_data)
+    #     self.assertTrue(form.is_valid())
